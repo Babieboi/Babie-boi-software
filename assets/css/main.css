@@ -363,26 +363,23 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    
+                height: 100%;
+		left: 0;
+		position: fixed;
+		text-align: center;
+		top: 0;
+		width: 100%;
+
 	}
 
 		#main:before {
 		
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      margin: auto;
-      /* You might need to set a width and height for this method to work reliably if the content doesn't dictate them */
-      width: fit-content; /* Or a specific width */
-      height: fit-content; /* Or a specific height */
-    
+                         content: '';
+			display: inline-block;
+			height: 100%;
+			margin-right: 0;
+			vertical-align: middle;
+			width: 1px;
 		}
 
 /* Header */
